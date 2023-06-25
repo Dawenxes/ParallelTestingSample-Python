@@ -28,5 +28,6 @@ jobs:
     displayName: 'Publish Test Results **/test-results.xml'
     inputs:
       testResultsFiles: '**/test-results.xml'
-      testRunTitle: 'Python $(python.version)'
+      testRunTitle: '$(pytestfiles)'
+      mergeTestResults: true
     condition: succeededOrFailed()
