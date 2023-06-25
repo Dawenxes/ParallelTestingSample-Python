@@ -18,7 +18,7 @@ pycodestyle==2.4.0
 pylint==2.1.1
 pytest==3.7.1
 rope==0.11.0
-selenium==3.14.0
+selenium==3.141.5
 six==1.11.0
 smmap2==2.0.4
 tox==3.2.1
