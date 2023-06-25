@@ -5,7 +5,6 @@
 jobs:
 
 - job: 'ParallelTesting'
-  pool: 'Hosted VS2017'
   strategy:
     parallel: 3
 
